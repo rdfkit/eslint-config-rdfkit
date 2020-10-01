@@ -5,11 +5,12 @@
   "homepage": "https://rdfkit.org",
   "repository": "git@github.com:rdfkit/eslint-config-rdfkit",
   "bugs": "https://github.com/rdfkit/eslint-config-rdfkit/issues",
-  "main": "index",
+  "main": "react",
   "files": [
     ".eslintrc",
     "index.js",
     "legacy.js",
+    "react.js",
     "lib"
   ],
   "keywords": [
@@ -51,6 +52,11 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rimraf": "^3.0.2"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "eslintIgnore": [
     "node_modules/*",
