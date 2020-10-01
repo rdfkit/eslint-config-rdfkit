@@ -39,7 +39,7 @@ If you want to use eslint-config-rdfkit with experimental features such as `asyn
 
 ```js
 module.exports = {
-  extends: "eslint-config-egg",
+  extends: "eslint-config-rdfkit",
   parser: "babel-eslint",
   rules: {
     // see https://github.com/eslint/eslint/issues/6274
