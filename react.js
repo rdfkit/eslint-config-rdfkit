@@ -14,6 +14,8 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       experimentalObjectRestSpread: true,
+      impliedStrict: true,
+      classes: true,
     },
   },
 };
