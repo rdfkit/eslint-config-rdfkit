@@ -1,0 +1,13 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/**/.*
+<PROJECT_ROOT>/library/**/.*
+<PROJECT_ROOT>/build/**/.*
+<PROJECT_ROOT>/publish/**/.*
+<PROJECT_ROOT>/umd/**/.*
+<PROJECT_ROOT>/lib/**/.*
+[include]
+<PROJECT_ROOT>/src/**/.*
+
+[libs]
+
+[options]

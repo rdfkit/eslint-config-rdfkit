@@ -1,0 +1,68 @@
+{
+  "name": "eslint-config-rdfkit",
+  "version": "0.1.0",
+  "description": "Developer Tools for Project rdfkit",
+  "homepage": "https://rdfkit.org",
+  "repository": "git@github.com:rdfkit/eslint-config-rdfkit",
+  "bugs": "https://github.com/rdfkit/eslint-config-rdfkit/issues",
+  "main": "index",
+  "files": [
+    ".eslintrc",
+    "index.js",
+    "legacy.js",
+    "lib"
+  ],
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "scripts": {
+    "clean": "find . \\( -name 'node_modules' -or -name 'yarn.lock' -or -name 'yarn-error.log' \\) -prune -exec rm -rf '{}' +",
+    "autod": "autod",
+    "lint": "npx eslint test/*.test.js lib *.js",
+    "test": "egg-bin test"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-eggache": "^1.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.6.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "autod": "^3.1.0",
+    "coffee": "^5.4.0",
+    "cpx": "^1.5.0",
+    "cross-env": "^7.0.2",
+    "egg-bin": "^4.15.0",
+    "egg-ci": "^1.18.0",
+    "eslint": "^7.10.0",
+    "kill-port": "^1.6.1",
+    "prettier": "^2.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2"
+  },
+  "eslintIgnore": [
+    "node_modules/*",
+    "docs/*",
+    "dist/*",
+    "build/*",
+    "coverage/*",
+    "fixtures/*",
+    "umd/*"
+  ],
+  "engines": {
+    "node": ">=12.14.0",
+    "yarn": ">=1.5.1"
+  }
+}
