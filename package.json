@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rdfkit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Developer Tools for Project rdfkit",
   "homepage": "https://rdfkit.org",
   "repository": "git@github.com:rdfkit/eslint-config-rdfkit",
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-eggache": "^1.0.0",
     "eslint-plugin-html": "^6.1.0",
