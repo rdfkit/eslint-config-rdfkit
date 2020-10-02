@@ -5,7 +5,7 @@
   "homepage": "https://rdfkit.org",
   "repository": "git@github.com:rdfkit/eslint-config-rdfkit",
   "bugs": "https://github.com/rdfkit/eslint-config-rdfkit/issues",
-  "main": "react",
+  "main": "react.js",
   "files": [
     ".eslintrc",
     "index.js",
